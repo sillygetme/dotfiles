@@ -1,0 +1,33 @@
+{
+  "layer": "top", // Waybar at top layer
+  "position": "top", // Waybar position (top|bottom|left|right)
+  "height": 30,
+  "margin": "-2 14 -14 14",
+  //"width": 1350, // Waybar width
+  // Choose the order of the modules idle_inhibitor
+  "modules-left": [
+    "hyprland/workspaces",
+    "custom/weather",
+    "custom/now-playing",
+    "tray",
+  ],
+  "modules-center": [
+    "clock",
+  ],
+  "modules-right": [
+    "wireplumber",
+    "bluetooth",
+    "temperature",
+    "cpu",
+    "memory",
+    "battery",
+    "network"
+  ],
+
+    // Load Modules
+    "include": ["/home/me/.config/waybar/modules.json"],
+
+  // Modules configuration
+
+
+}
