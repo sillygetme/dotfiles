@@ -1,0 +1,49 @@
+* {
+  background:     #0f172a;
+  background-alt: #1e293b;
+  foreground:     #e2e8f0;
+  selected:       #1d4ed8;
+  active:         #93c5fd;
+  urgent:         #60a5fa;
+  bordercol:      #2563eb;
+}
+
+window {
+  background-color: @background;
+  border: 2px;
+  border-color: @bordercol;
+  border-radius: 8px;
+}
+
+mainbox {
+  background-color: @background;
+}
+
+inputbar {
+  background-color: @background-alt;
+  text-color: @foreground;
+}
+
+prompt {
+  text-color: @active;
+}
+
+entry {
+  text-color: @foreground;
+}
+
+listview {
+  background-color: @background;
+  lines: 12;
+  columns: 1;
+}
+
+element {
+  background-color: @background;
+  text-color: @foreground;
+}
+
+element selected {
+  background-color: @selected;
+  text-color: #ffffff;
+}

@@ -1,0 +1,26 @@
+[general]
+framerate = 60
+overshoot = 100
+sensitivity = 20
+bar_width = 8
+bar_spacing = 8
+bar_height = 8
+
+[input]
+method = pulse
+source = auto
+
+[output]
+method = noncurses
+orientation = bottom
+channels = stereo
+synchronized_sync = 0
+
+[smoothing]
+noise_reduction = 60
+
+[color]
+gradient = 1
+gradient_color_1 = '#6D9EB9'
+gradient_color_2 = '#eee4e7'
+gradient_color_3 = '#D7AAC9'
