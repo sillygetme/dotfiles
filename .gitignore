@@ -3,7 +3,11 @@
 .env.*
 **/.env.*
 
+.codex
+**/.codex
+
 *AGENT*
 **/*AGENT*
 
+.gitignore
 sync-configs.sh
